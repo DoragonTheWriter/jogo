@@ -1,0 +1,5 @@
+                obstaculo2.style.display='block';
+                obstaculo3.style.display='block';
+                nuvem.style.display='block';
+                nuvem.classList.add('animanuvem');
+                obstaculo2.classList.add('animarastro');

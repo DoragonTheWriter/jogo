@@ -1,0 +1,57 @@
+<!DOCTYPE>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="codigos/style.css">
+        <script src="codigos/script.js" defer></script>
+        <title>The Great Run</title>
+    </head>
+    <body>
+        <div class="modal" id="modal">
+            <div class="menustart">
+                <h2 class="content">The Great Run</p>
+                <h3 class="content">aperte "start" para começar:</h3>
+                <button onclick="Start()" class ='reiniciar'>Start</button>
+            </div>
+        </div>
+        <div class="gameover" id="gameover">
+            <h3 class="content">Game Over</h3>
+            <button onclick="restart()" class="reiniciar">reiniciar</button>
+        </div>
+        <div class = 'goodend' id="goodend">
+            <h3 class="content">Parabéns! Você concluiu o jogo!</h3>
+            <h3 class="content">Créditos:Luiz Dourado<br>Instagram:<a href='https://www.instagram.com/goldendragon.21/'>Goldendragon</a></h3>
+            <button onclick="restart()" class="reiniciar">reiniciar</button>
+            
+        </div>
+        <div class="game-board" id="game-board">
+            <img id="fundo" src="codigos\imgs\1000_F_216900207_Qzsnl42GZPn6tRa86DeI1ioY4M0pz0eF.png" class="fundo">
+            <img id="clouds" src="codigos\imgs\pixelated-8-bit-clouds-retro-game-sky-background-digital-2d-sprite-asset-blue-white-cloud-shapes-for-game-design-isolated-set-ve (1).png" class="clouds">
+            <img id="pipe" src="codigos\imgs\pixel-art-icone-de-vetor-de-hidrante-para-jogo-de-8-bits-em-fundo-branco_360488-450.png" class="pipe">
+            <img id="mario" src="codigos\imgs\blue ninja run.gif" class="mario">
+            <img id="heli" src="codigos/imgs/oie_464349PV1eIucR.gif" class="heli">
+            <img id="rastro" src="codigos/imgs/istockphoto-1383439311-1024x1024.png" class='rastro'>
+            <img id="skull" src="codigos/imgs/download.gif" class="skull">
+            <div id="chaves">
+                Pontuação: <span id="pontuacao">0</span> metros
+                <span id="textofase"></span>
+            </div>
+            <div id="vic" class="vic">
+                <img src="ninja vic.gif" class="ninjavic" id="ninjavic">
+                <img src="codigos/imgs/f10dccfc82f6f3aa7388b2177729bee7.gif" class="shadowvic" id="shadowvic">
+                <img src="codigos/imgs/dbp6qj1-eaae0ccf-b87c-4509-895a-995cd53bafbe.gif" class="finalvic" id="finalvic">
+            </div>
+        </div>  
+            </div>
+        </div>
+        <audio id="tema" loop controls style="display:none;">
+            <source src="codigos\imgs\TEMA.mp3" class="audio/mp3">
+        </audio>
+        <audio id="pulo" controls style="display:none;">
+            <source src="codigos/imgs/pulo.wav"type="audio/mp3">
+        </audio>
+        <audio id="musicaover" controls style="display:none;">
+            <source src="codigos/imgs/Undertale Game Over Theme - YouTube.mp3" type="audio/mp3">
+        </audio>
+    </body>
+</html>
